@@ -1,0 +1,61 @@
+<!-- Etiqueta usada para decirle al navegador qué versión debe renderizar en este caso será HTML5 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Etiqueta usada para decirle al navegador que se usarán el tipo de codificación utf-8 o para caracteres especiales-->
+        <meta charset='utf-8'>
+        <!--Etiqueta usada para optimización para móviles diciendo que el-->
+        <!--width(ancho) es igual al tamaño de la pantalla actual-->
+        <!--user-scalable=no significa que el usuario no puede hacer zoom sobre la página evitando que el usuario genere una distorsión en la visualización-->
+        <meta name='viewport' content='width=device-width, user-scalable=no'>
+        <!--Etiqueta usada para colocar el nombre en la pestaña del navegador web-->
+        <title>Titulo proyecto o página web</title>
+    </head>
+    <body>
+        <h1>Registro en nuestra tienda</h1>
+        <label>Nombre de usuario</label>
+        <br>
+        <input type="text" id="usuario" name="nombre" placeholder="Ej: luis">
+        <br>
+        <br>
+        <label>Email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Ej: luis@gmail.com">
+        <br>
+        <br>
+        <label>Edad:</label>
+        <br>
+        <input type="number" id="edad" name="edad" placeholder="Ej: 21">
+        <br>
+        <br>
+        <label>Género:</label>
+        <br>
+        <input type="radio" id="Masculino" name="género" value="Masculino">
+        <label for="Masculino">Masculino</label>
+        <br>
+        <input type="radio" id="Femenino" name="género" value="Femenino">
+        <label for="Femenino">Femenino</label>
+        <br>
+        <br>
+        <label for="Recomendado">Recomendado por:</label> 
+        <br>
+        <select id="Recomendado" name="Recomendado">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+        </select>
+        <br>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="terminos">Acepto términos y condiciones:</label>
+        <br>
+        <input type="checkbox" id="terminos" name="terminos">
+        <br>
+        <br>
+        <button type="submit">Registrar</button>
+
+    </body> 
+</html>
